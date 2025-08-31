@@ -224,6 +224,6 @@ with app.app_context():
     except Exception as e:
         print(f"Failed to load model: {e}")
 
-if __name__ == '__main__':
-    # For local testing
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=False)
+# if __name__ == '__main__':
+#     # For local testing
+#     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=False)
